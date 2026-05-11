@@ -1,0 +1,583 @@
+/* ============================================
+   RESPONSIVE MEDIA QUERIES
+   For Books/Angelfaces Language Learning Site
+   ============================================ */
+
+/* ========== LAPTOP (1024px - 1280px) ========== */
+@media (max-width: 1280px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    .mainh1 {
+        font-size: 40px;
+    }
+    
+    .maindiv_1 {
+        margin-left: 20px;
+    }
+    
+    .s7__div1,
+    .s7__div2 {
+        width: 480px;
+    }
+    
+    .md2_img1 {
+        right: 300px;
+    }
+    
+    .md2_img2 {
+        right: 120px;
+        width: 220px;
+    }
+}
+
+/* ========== TABLET (768px - 1023px) ========== */
+@media (max-width: 1023px) {
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .navul_1, 
+    .navul_2 {
+        justify-content: center;
+    }
+    
+    /* Main Hero */
+    main {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    
+    .maindiv_1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .mainh1 {
+        font-size: 36px;
+    }
+    
+    .onfoiz {
+        font-size: 48px;
+    }
+    
+    main p {
+        font-size: 18px;
+    }
+    
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Hero Images */
+    .maindiv_2 {
+        min-height: 400px;
+        margin-top: 40px;
+    }
+    
+    .md2_img2 {
+        width: 200px;
+        right: 50%;
+        transform: translateX(50%) rotate(5deg);
+    }
+    
+    .md2_img1 {
+        right: 50%;
+        transform: translateX(50%);
+        top: -20px;
+    }
+    
+    .md2_img3 {
+        right: 50%;
+        transform: translateX(50%);
+        top: -30px;
+    }
+    
+    .md2_img4 {
+        right: 20px;
+        bottom: 20px;
+    }
+    
+    .md2_img6 {
+        right: 100px;
+        top: 380px;
+    }
+    
+    /* Section 2 */
+    .section_2 section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .s2_div2_div1 {
+        justify-content: center;
+    }
+    
+    .s2div1_img1,
+    .s2div1_img2 {
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /* Section 4 */
+    .section4 section {
+        justify-content: center;
+    }
+    
+    .section4__div1 {
+        text-align: center;
+        top: 0;
+    }
+    
+    /* Section 6 */
+    .s6__h1 h1 {
+        font-size: 30px;
+        color: #00CFFF;
+    }
+    
+    .s6__div {
+        gap: 30px;
+    }
+    
+    .s6__line-img {
+        width: 90%;
+    }
+    
+    /* Section 7 */
+    .section7 {
+        gap: 30px;
+    }
+    
+    .s7__div1,
+    .s7__div2 {
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .s7__div1--h1 {
+        font-size: 32px;
+    }
+    
+    .div1__div--img1,
+    .div1__div--img2,
+    .div1__div--img3,
+    .div1__div--img4 {
+        position: static !important;
+        width: 80px !important;
+        transform: none !important;
+    }
+    
+    .s7__div1--div--img {
+        justify-content: center;
+    }
+}
+
+/* ========== MOBILE LARGE (600px - 767px) ========== */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Navigation */
+    .navul_1,
+    .navul_2 {
+        gap: 15px;
+        font-size: 14px;
+    }
+    
+    .navbtn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    /* Main Hero */
+    main {
+        padding: 30px 15px;
+    }
+    
+    .mainh1 {
+        font-size: 28px;
+    }
+    
+    .onfoiz {
+        font-size: 40px;
+    }
+    
+    main p {
+        font-size: 16px;
+    }
+    
+    main button {
+        padding: 12px 24px;
+        min-width: 180px;
+        font-size: 16px;
+    }
+    
+    .box {
+        max-width: 300px;
+        height: 70px;
+    }
+    
+    .mainbox_img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .mainp_2 {
+        font-size: 12px !important;
+    }
+    
+    /* Section 1 */
+    .section_1 {
+        margin-top: 50px;
+    }
+    
+    .s1_div1 h1 {
+        font-size: 28px;
+    }
+    
+    .s1_div1 h5 {
+        font-size: 16px;
+    }
+    
+    .s1_div2,
+    .s1_div3,
+    .s1_div4 {
+        width: 250px;
+        height: 330px;
+    }
+    
+    .s1_div2 img,
+    .s1_div3 img,
+    .s1_div4 img {
+        width: 120px;
+    }
+    
+    .s1_btn {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+    }
+    
+    /* Section 2 */
+    .section_2 {
+        padding: 40px 0;
+    }
+    
+    .s2_div2_div1 h3 {
+        font-size: 16px;
+    }
+    
+    .s2_div2_div1 img {
+        width: 24px;
+    }
+    
+    .s2_div2_div1 h1 {
+        font-size: 28px;
+    }
+    
+    /* Section 3 */
+    .section_3 img {
+        width: 90%;
+    }
+    
+    /* Section 4 */
+    .section4 {
+        margin-top: 50px;
+        padding: 30px 0;
+    }
+    
+    .section4__div1--h1 {
+        font-size: 30px;
+    }
+    
+    .section4_div1--p {
+        font-size: 16px;
+    }
+    
+    .section4__div2,
+    .section4__div3,
+    .section4__div4,
+    .section4__div5,
+    .section4__div6 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 380px;
+        padding: 20px;
+    }
+    
+    .section4__div2--p1,
+    .section4__div3--p1,
+    .section4__div4--p1,
+    .section4__div5--p1,
+    .section4__div6--p1 {
+        font-size: 18px;
+    }
+    
+    .section4__div2--p2,
+    .section4__div3--p2,
+    .section4__div4--p2,
+    .section4__div5--p2,
+    .section4__div6--p2 {
+        font-size: 16px;
+    }
+    
+    /* Section 6 */
+    .section6 {
+        margin-top: 80px;
+    }
+    
+    .s6__h1 h1 {
+        font-size: 24px;
+    }
+    
+    .s6__div p {
+        font-size: 14px;
+    }
+    
+    .s6__div > div {
+        width: 200px;
+    }
+    
+    .s6__div img {
+        width: 60px;
+    }
+    
+    /* Section 7 */
+    .section7 {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    
+    .s7__div1,
+    .s7__div2 {
+        padding: 20px;
+    }
+    
+    .s7__div1--h1 {
+        font-size: 28px;
+    }
+    
+    .s7__div--p {
+        font-size: 16px;
+    }
+    
+    .s7__div--h3 {
+        font-size: 20px;
+    }
+    
+    .s7__div2--h1 {
+        font-size: 22px;
+    }
+    
+    .s7div2--input1,
+    .s7div2--input2 {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    
+    .s7__div2 label {
+        font-size: 12px;
+    }
+    
+    .s7__div2--btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    
+    .s7__div1--div--img img {
+        width: 70px;
+    }
+}
+
+/* ========== MOBILE SMALL (320px - 599px) ========== */
+@media (max-width: 599px) {
+    .container {
+        padding: 0 12px;
+    }
+    
+    /* Navigation */
+    .navul_1,
+    .navul_2 {
+        gap: 12px;
+        font-size: 12px;
+    }
+    
+    /* Main Hero */
+    .mainh1 {
+        font-size: 24px;
+    }
+    
+    .onfoiz {
+        font-size: 32px;
+    }
+    
+    main p {
+        font-size: 14px;
+    }
+    
+    .box {
+        max-width: 260px;
+        height: 60px;
+        gap: 8px;
+    }
+    
+    .mainbox_img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .mainp_2 {
+        font-size: 10px !important;
+    }
+    
+    /* Section 1 */
+    .s1_div1 h1 {
+        font-size: 24px;
+    }
+    
+    .s1_div2,
+    .s1_div3,
+    .s1_div4 {
+        width: 220px;
+        height: 300px;
+    }
+    
+    .s1_div2 img,
+    .s1_div3 img,
+    .s1_div4 img {
+        width: 100px;
+    }
+    
+    .s1_div2 h2,
+    .s1_div3 h2,
+    .s1_div4 h2 {
+        font-size: 18px;
+    }
+    
+    /* Section 4 - Full width on small mobile */
+    .section4__div2,
+    .section4__div3,
+    .section4__div4,
+    .section4__div5,
+    .section4__div6 {
+        max-width: 100%;
+    }
+    
+    /* Section 6 */
+    .s6__div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .s6__div > div {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .s6__h1 h1 {
+        font-size: 22px;
+    }
+    
+    .s6__div p {
+        font-size: 14px;
+    }
+    
+    /* Section 7 */
+    .s7__div1--h1 {
+        font-size: 24px;
+    }
+    
+    .s7__div--p {
+        font-size: 14px;
+    }
+    
+    .s7__div2--h1 {
+        font-size: 20px;
+    }
+    
+    .s7__div1--div--img img {
+        width: 55px;
+    }
+    
+    .div1__div--img1,
+    .div1__div--img2,
+    .div1__div--img3,
+    .div1__div--img4 {
+        width: 60px !important;
+    }
+}
+
+/* ========== EXTRA SMALL (below 360px) ========== */
+@media (max-width: 360px) {
+    .navul_1,
+    .navul_2 {
+        gap: 8px;
+        font-size: 11px;
+    }
+    
+    .mainh1 {
+        font-size: 20px;
+    }
+    
+    .onfoiz {
+        font-size: 28px;
+    }
+    
+    .s1_btn {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .s7__div2--btn {
+        font-size: 14px;
+    }
+}
+
+/* ========== TABLET LANDSCAPE & DESKTOP (1024px and above) ========== */
+@media (min-width: 1024px) {
+    .s2div1_img1 {
+        position: relative;
+        top: -275px;
+        left: 120px;
+    }
+    
+    .s2div1_img2 {
+        position: relative;
+        top: 85px;
+    }
+}
+
+/* ========== LARGE DESKTOP (1440px and above) ========== */
+@media (min-width: 1440px) {
+    .container {
+        padding: 0;
+    }
+}
+
+/* ========== PRINT STYLES (optional) ========== */
+@media print {
+    .navbtn,
+    button,
+    .s7__div2--btn {
+        display: none;
+    }
+    
+    body {
+        background-color: #060B18;
+        color: #E2E8F0;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
